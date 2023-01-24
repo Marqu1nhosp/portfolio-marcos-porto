@@ -8,8 +8,8 @@ import lista_presenca from '../../assets/lista_presenca.png'
 export function CardProjetos(){
     return(
         <>
-        <div class="md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/habits">
+        <div class="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/habits" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={Habit} alt=""/>
         </a>
         <div class="p-6">
@@ -17,14 +17,14 @@ export function CardProjetos(){
           <p class="text-gray-700 text-base font-roboto mb-4">
           Esse projeto foi desenvolvido com as seguintes tecnologias: TypeScript, React, Node.js, Vite, tailwindcss, Radix UI, Vitest, PostgreSQL, PrismaORM
           </p>
-          <a href="https://github.com/Marqu1nhosp/habits">
+          <a href="https://github.com/Marqu1nhosp/habits" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
 
-      <div class="rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/api-da-marvel-react">
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/api-da-marvel-react" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={Marvel} alt=""/>
         </a>
         <div class="p-6">
@@ -32,14 +32,14 @@ export function CardProjetos(){
           <p class="text-gray-700 font-roboto text-base mb-4">
           Esse projeto foi desenvolvido com as seguintes tecnologias: TypeScript, React, Node.js e consumindo API da Marvel utilizando.
           </p>
-          <a href="https://github.com/Marqu1nhosp/api-da-marvel-react">
+          <a href="https://github.com/Marqu1nhosp/api-da-marvel-react" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
 
-      <div class="rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/rocketflix">
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={Rocketflix} alt=""/>
         </a>
         <div class="p-6">
@@ -47,14 +47,14 @@ export function CardProjetos(){
           <p class="text-gray-700 font-roboto text-base mb-4">
            Esse projeto foi desenvolvido com as seguintes tecnologias: React e consumindo API do The Movie DB.
           </p>
-          <a href="https://github.com/Marqu1nhosp/rocketflix">
+          <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
 
-      <div class="rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/microservice-notification">
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/microservice-notification" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={microservico} alt=""/>
         </a>
         <div class="p-6">
@@ -62,29 +62,29 @@ export function CardProjetos(){
           <p class="text-gray-700 text-base mb-4">
           Estudando/desenvolvendo microsserviço escalável com as seguintes tecnologias: Node.js, NestJS, Prisma e TypeScript.
           </p>
-          <a href="https://github.com/Marqu1nhosp/microservice-notification">
+          <a href="https://github.com/Marqu1nhosp/microservice-notification" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
 
-      <div class="rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/nlw-esports">
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/nlw-esports" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={sports} alt=""/>
         </a>
         <div class="p-6">
-          <h5 class="text-gray-900 text-xl font-medium mb-2">NLW-Sports</h5>
+          <h5 class="text-gray-900 md:text-xl font-medium mb-2">NLW-Sports</h5>
           <p class="text-gray-700 text-base mb-4">
           Esse projeto foi desenvolvido com as seguintes tecnologias: TypeScript, React, Node.js, Vite, tailwindcss, Radix UI, Expo, Vitest, PostgreSQL, PrismaORM
           </p>
-          <a href="https://github.com/Marqu1nhosp/nlw-esports">
+          <a href="https://github.com/Marqu1nhosp/nlw-esports" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
 
-      <div class="rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/nlw-esports">
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/nlw-esports" target="_blank">
           <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={lista_presenca} alt=""/>
         </a>
         <div class="p-6">
@@ -92,7 +92,7 @@ export function CardProjetos(){
           <p class="text-gray-700 text-base mb-4">
           Lista de presença utilizando: React, typescript e consumindo api do github.
           </p>
-          <a href="https://github.com/Marqu1nhosp/lista-de-presenca">
+          <a href="https://github.com/Marqu1nhosp/lista-de-presenca" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>

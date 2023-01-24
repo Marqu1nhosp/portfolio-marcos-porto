@@ -2,7 +2,7 @@ export function Contatos() {
     return (
         <footer class="mt-32 text-center text-white">
             <div class="container pt-9">
-                <div class="ml-24 flex justify-center mb-9">
+                <div class="ml-10 flex justify-center mb-9">
 
                     <a href="https://github.com/Marqu1nhosp" class="mr-9 text-gray-800 hover:scale-150 transition duration-300 ease-in-out">
                         <box-icon type='logo' size="lg" color="#FFFFFF" name='github'></box-icon>
