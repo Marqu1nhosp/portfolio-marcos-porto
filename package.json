@@ -11,6 +11,11 @@
   "dependencies": {
     "@material-tailwind/react": "^1.2.5",
     "boxicons": "^2.1.4",
+    "daisyui": "^2.47.0",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.7",
+    "popper.js": "^1.16.1",
+    "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",

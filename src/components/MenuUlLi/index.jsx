@@ -29,7 +29,7 @@ export function MenuUlLi(){
           </a>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-2 text-[#64ffda] rounded hover:bg-[#a8b2d1] md:hover:bg-transparent md:border-0 md:hover:text-[#a8b2d1] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 
+          <a href="#" class="block py-2 pl-3 pr-2 text-[#64ffda] rounded hover:bg-[#a8b2d1]git  md:hover:bg-transparent md:border-0 md:hover:text-[#a8b2d1] md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 
           dark:hover:text-white md:dark:hover:bg-transparent
           text-lg uppercase
           ">
