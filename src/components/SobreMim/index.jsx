@@ -4,7 +4,7 @@ import './styles.css'
 export function SobreMim() {
     return (
      <div>
-      <h1 id="sobre-mim" className="text-[#64ffda] mt-36 font-roboto-bold uppercase object-center text-center md:text-3xl">Sobre mim</h1>
+      <h1 id="sobre-mim" className="text-[#64ffda] mt-56 font-roboto-bold uppercase object-center text-center md:text-3xl">Sobre mim</h1>
         
         <div className="mt-10 md:flex justify-around" >
         <div className="md:w-2/5 md:mt-6 md:ml-20">
