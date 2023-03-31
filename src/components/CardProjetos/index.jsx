@@ -5,6 +5,8 @@ import microservico from '../../assets/microservico.png'
 import sports from '../../assets/sports.png'
 import lista_presenca from '../../assets/lista_presenca.png'
 import letmeask from '../../assets/letmeask.png'
+import feed from '../../assets/feed.png'
+import pomodoro from '../../assets/pomodoro.png'
 
 export function CardProjetos(){
     return(
@@ -28,22 +30,41 @@ export function CardProjetos(){
         </div>
       </div>
 
-     <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
-          <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={Rocketflix} alt=""/>
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/pomodoro-timer" target="_blank">
+          <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={pomodoro} alt=""/>
         </a>
         <div class="p-6">
-          <h5 class="text-gray-900 text-xl font-bold mb-2">Rocketflix</h5>
+          <h5 class="text-gray-900 text-xl font-bold mb-2">Pomodoro Timer</h5>
           <p class="text-gray-700 font-roboto text-base mb-4">
-           Esse projeto foi desenvolvido com as seguintes tecnologias: React e consumindo API do The Movie DB.
+          Esse projeto foi desenvolvido com as seguintes tecnologias: TypeScript, React, react-router-dom, styled-components e react-hook-form.
           </p>
           <h5 class="mt-4 text-gray-900 text-xl font-bold mb-2">Idéia do projeto:</h5>
-          <p class="text-gray-700 text-base font-roboto mb-4">O projeto foi desenvolvido para ajudar o usuário, caso o mesmo não tenha idéia de filme para assistir.</p>
-          <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
+          <p class="text-gray-700 text-base font-roboto mb-4">Foi desenvolvido com base na técnica de Pomodoro, essa técnica é forma de otimizar o tempo de estudos e tarefas geralmente é voltada para pessoas procrastinadoras, ou seja, que têm tendência a adiar suas atividades.</p>
+          <a href="https://github.com/Marqu1nhosp/pomodoro-timer" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
       </div>
+
+      <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/feed-ts" target="_blank">
+          <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={feed} alt=""/>
+        </a>
+        <div class="p-6">
+          <h5 class="text-gray-900 text-xl font-bold mb-2">Feed</h5>
+          <p class="text-gray-700 font-roboto text-base mb-4">
+          Esse projeto foi desenvolvido com as seguintes tecnologias: React, TypeScript e css-modules.
+          </p>
+          <h5 class="mt-4 text-gray-900 text-xl font-bold mb-2">Idéia do projeto:</h5>
+          <p class="text-gray-700 text-base font-roboto mb-4">Projeto para simular um Feed de uma rede social, onde tem as funcionalidades de postar, deletar e comentar no feed.</p>
+          <a href="https://github.com/Marqu1nhosp/feed-ts" target="_blank">
+          <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
+          </a>
+        </div>
+      </div>
+
+   
 
       <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
         <a href="https://github.com/Marqu1nhosp/microservice-notification" target="_blank">
@@ -125,6 +146,24 @@ export function CardProjetos(){
           <h5 class="mt-4 text-gray-900 text-xl font-bold mb-2">Idéia do projeto:</h5>
           <p class="text-gray-700 text-base font-roboto mb-4">Projeto para fins de estudo, onde da pra pesquisar o seu personagem da Marvel, trazendo foto e sua descrição consumindo api da Marvel.</p>
           <a href="https://github.com/Marqu1nhosp/api-da-marvel-react" target="_blank">
+          <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
+          </a>
+        </div>
+      </div>
+
+
+     <div class="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
+        <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
+          <img class="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out" src={Rocketflix} alt=""/>
+        </a>
+        <div class="p-6">
+          <h5 class="text-gray-900 text-xl font-bold mb-2">Rocketflix</h5>
+          <p class="text-gray-700 font-roboto text-base mb-4">
+           Esse projeto foi desenvolvido com as seguintes tecnologias: React e consumindo API do The Movie DB.
+          </p>
+          <h5 class="mt-4 text-gray-900 text-xl font-bold mb-2">Idéia do projeto:</h5>
+          <p class="text-gray-700 text-base font-roboto mb-4">O projeto foi desenvolvido para ajudar o usuário, caso o mesmo não tenha idéia de filme para assistir.</p>
+          <a href="https://github.com/Marqu1nhosp/rocketflix" target="_blank">
           <button type="button" class=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Ver projeto</button>
           </a>
         </div>
