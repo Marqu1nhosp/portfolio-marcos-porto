@@ -7,13 +7,221 @@ import listaPresenca from '../../assets/lista_presenca.png'
 import letmeask from '../../assets/letmeask.png'
 import feed from '../../assets/feed.png'
 import pomodoro from '../../assets/pomodoro.png'
+import exerciseIt from '../../assets/exerciseit.png'
+import finApi from '../../assets/finApi.png'
+import dtMoney from '../../assets/dtMoney.png'
+import goodBlood from '../../assets/goodBlood.png'
+import igniteCall from '../../assets/igniteCall.png'
 
 export function CardProjetos() {
   return (
     <>
       <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
         <a
-          href="https://github.com/Marqu1nhosp/habits"
+          href="https://github.com/Marqu1nhosp/exercise-it"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+            src={exerciseIt}
+            alt=""
+          />
+        </a>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-bold mb-2">Exercise It</h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Esse projeto foi desenvolvido com as seguintes tecnologias:
+            TypeScript, React e NextJS.
+          </p>
+          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
+            Idéia do projeto:
+          </h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            É um app para lembrar o usuário de fazer exercícios, enquanto
+            estiver na frente do computador. Contém Up de level, para cada
+            exercício finalizado.
+          </p>
+          <a
+            href="https://github.com/Marqu1nhosp/exercise-it"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Ver projeto
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a
+          href="https://github.com/Marqu1nhosp/goodblood"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+            src={goodBlood}
+            alt=""
+          />
+        </a>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-bold mb-2">GoodBlood</h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Tecnologias utilizadas: react, tailwindcss, axios, json-server, zod,
+            hookform/resolvers, uuid, date-fns, Radix UI, react-datepicker,
+            react-hook-form, react-imask, react-router-dom e
+            phosphor-icons/react.
+          </p>
+          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
+            Idéia do projeto:
+          </h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Sistema de doação de sangue para o projeto de Tópicos Especiais da
+            faculdade de Sistemas de Informação.
+          </p>
+          <a
+            href="https://github.com/Marqu1nhosp/goodblood"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Ver projeto
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a
+          href="https://github.com/Marqu1nhosp/finApi"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+            src={finApi}
+            alt=""
+          />
+        </a>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-bold mb-2">Fin Api</h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Esse projeto foi desenvolvido com as seguintes tecnologias: NodeJS e
+            express.
+          </p>
+          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
+            Idéia do projeto:
+          </h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Criando uma aplicação - API de finanças, onde será possível aprender
+            e práticar alguns conceitos básicos do NodeJS
+          </p>
+          <a
+            href="https://github.com/Marqu1nhosp/finApi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Ver projeto
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a
+          href="https://github.com/Marqu1nhosp/ignitecall"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+            src={igniteCall}
+            alt=""
+          />
+        </a>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-bold mb-2">Ignite Call</h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Tecnologias utilizadas: TypeScript, React, prisma, next, next-auth,
+            react-dom, react-hook-form, axios, dayjs e zod.
+          </p>
+          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
+            Idéia do projeto:
+          </h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            É um app para conectar seu calendário e permitir que as pessoas
+            marquem agendamentos no seu tempo livre.
+          </p>
+          <a
+            href="https://github.com/Marqu1nhosp/ignitecall"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Ver projeto
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a
+          href="https://github.com/Marqu1nhosp/dt-money"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+            src={dtMoney}
+            alt=""
+          />
+        </a>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-bold mb-2">DT Money</h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            Tecnologias utilizadas: Typescript, react, react-dom,
+            react-hook-form, styled-components, axios e json-server.
+          </p>
+          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
+            Idéia do projeto:
+          </h5>
+          <p className="text-gray-700 text-base font-roboto mb-4">
+            DT Money é um app para ter um controle financeiro, onde você pode
+            fazer uma busca pelo o item desejado.
+          </p>
+          <a
+            href="https://github.com/Marqu1nhosp/dt-money"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              type="button"
+              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Ver projeto
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96">
+        <a
+          href="https://github.com/Marqu1nhosp/finApi"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,9 +232,7 @@ export function CardProjetos() {
           />
         </a>
         <div className="p-6">
-          <h5 className="text-gray-900 text-xl font-bold mb-2">
-            Projeto Habits
-          </h5>
+          <h5 className="text-gray-900 text-xl font-bold mb-2">Habits</h5>
           <p className="text-gray-700 text-base font-roboto mb-4">
             Esse projeto foi desenvolvido com as seguintes tecnologias:
             TypeScript, React, Node.js, Vite, tailwindcss, Radix UI, Vitest,
