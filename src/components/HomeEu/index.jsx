@@ -1,7 +1,7 @@
 export function HomeEu() {
   return (
     <>
-      <div className="ml-56" id="home">
+      <div className="md:ml-56" id="home">
         <h1 className="text-[#64ffda] mt-1 font-roboto-bold hover object-center text-left md:text-5xl">
           {' '}
           Olá, meu nome é Marcos Porto!
@@ -12,7 +12,7 @@ export function HomeEu() {
         <p className="md:text-lg text-[#64ffda] mt-10 font-roboto ">
           Este é meu Website e Portfólio.
         </p>
-        <p className="md:text-lg mt-2 text-white font-roboto mr-[20rem] text-justify">
+        <p className="md:text-lg mt-2 text-white font-roboto md:mr-[20rem] text-justify mr-4">
           Atualmente estou em busca de uma oportunidade de crescer e agregar na
           área de desenvolvimento Full-Stack, unindo qualidade, eficácia e muito
           amor pelo que faço para que assim eu possa entregar os melhores
