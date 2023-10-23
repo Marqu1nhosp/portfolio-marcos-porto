@@ -1,4 +1,4 @@
-import Eu from '../../assets/marcos.jpg'
+import Eu from '../../assets/marcos.png'
 import './styles.css'
 
 export function SobreMim() {
@@ -28,15 +28,13 @@ export function SobreMim() {
             Já atuei como programador na UESB, atividades de desenvolvimento,
             manutenção e suporte de sistemas, em PHP, com framework twig e com
             banco de dados MySQL e PostgreSQL, durante esse tempo, tive um pouco
-            de contato com o framework Laravel. Possuo cursos com Node.js,
-            ReactJS, ReactNative e com Angular. Atualmente estou estudando
-            ReactJS, TypeScript, NodeJS, NestJs, Prisma ORM e TailwindCSS.
+            de contato com o framework Laravel.
           </p>
         </div>
 
         <div className="">
           <img
-            className="ml-10 mt-8 md:w-full md:h-full max-w-xs object-center shadow-lg rounded-full "
+            className="ml-10 md:w-full md:h-full max-w-xs object-center rounded-md "
             src={Eu}
             alt=""
           />
