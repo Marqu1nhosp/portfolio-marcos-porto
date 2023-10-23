@@ -10,7 +10,7 @@ export function Projetos() {
     <>
       <h1
         id="projetos"
-        className="text-[#64ffda] mt-10 font-roboto-bold uppercase object-center text-center md:text-3xl"
+        className="text-[#64ffda] mt-10 font-roboto font-bold uppercase object-center text-center md:text-3xl"
       >
         Projetos
       </h1>

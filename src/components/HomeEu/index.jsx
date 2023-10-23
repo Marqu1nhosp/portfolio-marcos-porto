@@ -1,15 +1,15 @@
 export function HomeEu() {
   return (
     <>
-      <div className="md:ml-56" id="home">
-        <h1 className="text-[#64ffda] mt-1 font-roboto-bold hover object-center text-left md:text-5xl">
+      <div className="md:ml-[10rem]" id="home">
+        <h1 className="text-[#64ffda] mt-1 font-roboto font-bold hover object-center text-left md:text-5xl">
           {' '}
           Olá, meu nome é Marcos Porto!
         </h1>
         <p className="text-[#ccd6f6] md:text-2xl uppercase text-left font-medium italic">
           Web Developer Full Stack
         </p>
-        <p className="md:text-lg text-[#64ffda] mt-10 font-roboto ">
+        <p className="md:text-2xl text-[#64ffda] italic mt-10 font-roboto ">
           Este é meu Website e Portfólio.
         </p>
         <p className="md:text-lg mt-2 text-white font-roboto md:mr-[20rem] text-justify mr-4">
