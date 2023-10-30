@@ -29,5 +29,6 @@ module.exports = {
     }),
     require('flowbite/plugin'),
     require('tw-elements/dist/plugin'),
+    require('tailwindcss-animated'),
   ],
 }

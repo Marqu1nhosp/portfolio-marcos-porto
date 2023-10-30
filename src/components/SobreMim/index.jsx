@@ -6,14 +6,14 @@ export function SobreMim() {
     <div>
       <h1
         id="sobre-mim"
-        className="text-[#64ffda] mt-8 font-roboto font-bold uppercase object-center text-center md:text-3xl"
+        className="text-[#64ffda] mt-8 font-roboto font-bold uppercase object-center text-center md:text-3xl "
       >
         Sobre mim
       </h1>
 
       <div className="mt-5 md:flex justify-around">
         <div className="md:w-2/5 md:mt-6 md:ml-20">
-          <p className="ml-4 md:text-lg font-roboto font-semibold text-white text-justify mr-4">
+          <p className="ml-4 md:text-lg font-roboto font-semibold text-white text-justify mr-4 ">
             Nasci em Vitória da Conquista, Bahia, no ano de 2000, atualmente
             tenho 23 anos, filho de uma Dona de Casa e Motorista de Ônibus, Dona
             Edeildes Pereira Porto e Senhor Jozimiro de Oliveira Matos.

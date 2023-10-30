@@ -6,7 +6,7 @@ export function HomeEu() {
           {' '}
           Olá, meu nome é Marcos Porto!
         </h1>
-        <p className="text-[#ccd6f6] md:text-2xl uppercase text-left font-medium italic">
+        <p className="text-[#ccd6f6] md:text-2xl uppercase text-left md:font-medium italic">
           Web Developer Full Stack
         </p>
         <p className="md:text-2xl text-[#64ffda] italic mt-10 font-roboto ">

@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.7.0",
+    "tailwindcss-animated": "^1.0.1",
     "tw-elements": "^1.0.0-alpha13"
   },
   "devDependencies": {
