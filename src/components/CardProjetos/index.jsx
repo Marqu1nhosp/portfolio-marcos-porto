@@ -552,46 +552,6 @@ export function CardProjetos() {
           </a>
         </div>
       </div>
-
-      <div className="mt-10 rounded-lg shadow-lg bg-[#64ffda] md:w-96">
-        <a
-          href="https://github.com/Marqu1nhosp/rocketflix"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
-            src={Rocketflix}
-            alt=""
-          />
-        </a>
-        <div className="p-6">
-          <h5 className="text-gray-900 text-xl font-bold mb-2">Rocketflix</h5>
-          <p className="text-gray-700 font-roboto text-base mb-4">
-            Esse projeto foi desenvolvido com as seguintes tecnologias: React e
-            consumindo API do The Movie DB.
-          </p>
-          <h5 className="mt-4 text-gray-900 text-xl font-bold mb-2">
-            Idéia do projeto:
-          </h5>
-          <p className="text-gray-700 text-base font-roboto mb-4">
-            O projeto foi desenvolvido para ajudar o usuário, caso o mesmo não
-            tenha idéia de filme para assistir.
-          </p>
-          <a
-            href="https://github.com/Marqu1nhosp/rocketflix"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button
-              type="button"
-              className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Ver projeto
-            </button>
-          </a>
-        </div>
-      </div>
     </>
   )
 }
