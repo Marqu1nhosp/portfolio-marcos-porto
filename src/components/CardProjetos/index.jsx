@@ -1,6 +1,5 @@
 import Habit from '../../assets/Habit.png'
 import Marvel from '../../assets/Marvel.png'
-import Rocketflix from '../../assets/Rocketflix.png'
 import microservico from '../../assets/microservico.png'
 import sports from '../../assets/sports.png'
 import listaPresenca from '../../assets/lista_presenca.png'
