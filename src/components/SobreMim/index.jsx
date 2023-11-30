@@ -26,7 +26,7 @@ export function SobreMim() {
             Informação, no qual atualmente estou no 8º semestre.
           </p>
           <p className="ml-4 md:text- font-roboto font-semibold text-white text-justify mr-4">
-            Minha trajetória como programador na UESB foi marcada por
+            Minha trajetória como desenvolvedor na UESB foi marcada por
             experiências significativas. Atuei no desenvolvimento, manutenção e
             suporte de sistemas, utilizando tecnologias como PHP com o framework
             Twig, e explorando bancos de dados MySQL e PostgreSQL. Durante esse
