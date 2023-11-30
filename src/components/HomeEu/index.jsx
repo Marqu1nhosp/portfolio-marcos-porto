@@ -13,7 +13,7 @@ export function HomeEu() {
           <p className="md:text-2xl text-[#64ffda] italic mt-10 font-roboto ">
             Este é meu Website e Portfólio.
           </p>
-          <p className="md:text-lg text-white font-roboto ">
+          <p className="md:text-lg text-white font-roboto text-justify">
             Atualmente estou em busca de uma oportunidade de crescer e agregar
             na área de desenvolvimento Full-Stack, unindo qualidade, eficácia e
             muito amor pelo que faço para que assim eu possa entregar os
