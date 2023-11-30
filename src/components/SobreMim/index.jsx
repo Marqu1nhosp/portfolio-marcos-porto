@@ -12,7 +12,7 @@ export function SobreMim() {
       </h1>
 
       <div className="mt-5 md:flex flex-row justify-center items-center gap-32">
-        <div className="md:w-2/5 md:mt-6 md:ml-20">
+        <div className="md:w-[40rem] md:mt-6 md:ml-20">
           <p className="ml-4 md:text- font-roboto font-semibold text-white text-justify mr-4 ">
             Olá, sou Marcos Antonio Porto Matos, nascido em Vitória da
             Conquista, Bahia, no ano de 2000. Atualmente, aos 23 anos, sou filho
@@ -50,7 +50,7 @@ export function SobreMim() {
 
         <div className="">
           <img
-            className="ml-10 md:w-full md:h-full max-w-xs object-center rounded-md "
+            className="ml-10 md:w-full md:h-full max-w-xs object-center rounded-md"
             src={Eu}
             alt=""
           />
