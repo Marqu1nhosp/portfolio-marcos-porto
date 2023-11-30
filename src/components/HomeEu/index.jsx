@@ -2,7 +2,7 @@ export function HomeEu() {
   return (
     <div>
       <div className="md:flex flex-row justify-center items-center gap-24">
-        <div className="md:w-2/5 md:mt-6 md:mr-[26rem]">
+        <div className="md:w-2/5 md:mt-6">
           <h1 className="text-[#64ffda] mt-1 font-roboto font-bold hover object-center md:text-5xl">
             {' '}
             Olá, meu nome é Marcos Porto!
@@ -13,7 +13,7 @@ export function HomeEu() {
           <p className="md:text-2xl text-[#64ffda] italic mt-10 font-roboto ">
             Este é meu Website e Portfólio.
           </p>
-          <p className="md:text-lg text-white font-roboto text-justify">
+          <p className="md:text-lg text-white font-roboto text-justify mr-3">
             Atualmente estou em busca de uma oportunidade de crescer e agregar
             na área de desenvolvimento Full-Stack, unindo qualidade, eficácia e
             muito amor pelo que faço para que assim eu possa entregar os
@@ -23,7 +23,7 @@ export function HomeEu() {
             ExpressJS e NodeJS.
           </p>
           <hr className="mt-5 max-w-xs opacity-70"></hr>
-          <div className="mt-5 text-left">
+          <div className="mt-5">
             <box-icon
               size="lg"
               color="#007acc"
