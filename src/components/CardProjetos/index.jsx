@@ -167,7 +167,7 @@ export function CardProjetos() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="mt-10 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96"
+          className="rounded-md mt-10 px-0 md:rounded-lg md:shadow-lg bg-[#64ffda] md:w-96"
         >
           <a href={project.githubLink} target="_blank" rel="noreferrer">
             <img
