@@ -1,6 +1,6 @@
 export function HomeEu() {
   return (
-    <div className="md:flex justify-center items-center md:w-[60rem]">
+    <div className="md:flex justify-center items-center md:w-[60rem] mr-10 sm:mr-20">
       <div className="md:mt-6">
         <h1 className="text-[#64ffda] mt-1 font-roboto font-bold hover object-center md:text-5xl">
           {' '}

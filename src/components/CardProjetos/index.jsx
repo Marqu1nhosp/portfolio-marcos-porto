@@ -14,8 +14,19 @@ import igniteCall from '../../assets/igniteCall.png'
 import bmi from '../../assets/bmi.png'
 import todolist from '../../assets/todolist.png'
 import optionsOnScreen from '../../assets/optionsOnScreen.png'
+import pixGenerator from '../../assets/pixGenerator.png'
 
 const projects = [
+  {
+    title: 'Pix Generator App',
+    descriptionTechnologies:
+      'Tecnologias utilizadas no front-end: Next, React, Typescript, tailwindcss, axios, next-auth, react-hook-form, zod, react-imask, react-qrcode-pix, sonner, radix e uuid.' +
+      ' Tecnologias utilizadas no back-end: Node, Fastify, Typescript, knex, zod, sqlite3, supertest, fastify/cors, fastify/multipart e fastify/static.',
+    projectIdeia:
+      'Este é projeto full stack, com uma interface simples e intuitiva, meu aplicativo possibilita que os comerciantes se registrem, acessem suas contas e gerem QR Codes Pix de maneira ágil e eficaz. Além disso, oferecemos relatórios de transações simplificados para facilitar a gestão financeira.',
+    image: pixGenerator,
+    githubLink: 'https://github.com/Marqu1nhosp/options-on-screen-app',
+  },
   {
     title: 'Options On Screen',
     descriptionTechnologies:
