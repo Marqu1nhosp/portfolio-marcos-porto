@@ -15,8 +15,18 @@ import bmi from '../../assets/bmi.png'
 import todolist from '../../assets/todolist.png'
 import optionsOnScreen from '../../assets/optionsOnScreen.png'
 import pixGenerator from '../../assets/pixGenerator.png'
+import notes from '../../assets/notes.png'
 
 const projects = [
+  {
+    title: 'Notes App',
+    descriptionTechnologies:
+      'Tecnologias utilizadas: React, Typescript, tailwindcss, radix, date-fns, sonner, localStorage e API Speech Recognition.',
+    projectIdeia:
+      'Esse app permite aos usuários gravar notas por voz, simplificando ainda mais o processo de captura de pensamentos e ideias ou por entrada do teclado, utilizando apenas texto.',
+    image: notes,
+    githubLink: 'https://github.com/Marqu1nhosp/notes-app',
+  },
   {
     title: 'Pix Generator App',
     descriptionTechnologies:
@@ -182,7 +192,7 @@ export function CardProjetos() {
         >
           <a href={project.githubLink} target="_blank" rel="noreferrer">
             <img
-              className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out"
+              className="rounded-t-lg hover:scale-110 transition duration-300 ease-in-out md:w-96 md:h-56"
               src={project.image}
               alt={project.title}
             />
@@ -203,7 +213,7 @@ export function CardProjetos() {
             <a href={project.githubLink} target="_blank" rel="noreferrer">
               <button
                 type="button"
-                className=" inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="inline-block px-6 py-2.5 bg-blue-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-background_marcos hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Ver projeto
               </button>
