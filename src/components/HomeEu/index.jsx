@@ -1,65 +1,42 @@
+/* eslint-disable prettier/prettier */
+import { ReactTyped } from "react-typed";
+
+import { Tech } from "../Tech";
+
 export function HomeEu() {
   return (
     <div className="md:flex justify-center items-center md:w-[60rem] mr-10 sm:mr-20">
       <div className="md:mt-6">
-        <h1 className="text-[#64ffda] mt-1 font-roboto font-bold hover object-center md:text-5xl">
-          {' '}
-          Olá, meu nome é Marcos Porto!
+        <h1 className="text-[#ccd6f6] mt-1 font-roboto font-bold md:text-3xl">
+          Olá! Me chamo Marcos Porto e sou{" "}
+          <ReactTyped
+            className="text-[#64ffda]"
+            strings={[
+              "Desenvolvedor Full Stack.",
+              "Apaixonado por tecnologia.",
+            ]}
+            typeSpeed={50}
+            backSpeed={30}
+            loop
+          />
         </h1>
-        <p className="text-[#ccd6f6] md:text-2xl uppercase md:font-medium italic">
-          Web Developer Full Stack
+
+        <p className="text-[#ccd6f6] md:text-xl uppercase md:font-medium italic">
+          Este é meu website e portfólio profissional.
         </p>
-        <p className="md:text-2xl text-[#64ffda] italic mt-10 font-roboto ">
-          Este é meu Website e Portfólio.
+
+        <p className="md:text-xs text-[#ccd6f6] font-roboto text-justify mr-3 mt-6">
+          Apaixonado por resolver problemas com código, estou em busca de uma
+          oportunidade como Desenvolvedor Júnior, onde eu possa crescer
+          profissionalmente, contribuir com projetos de qualidade e continuar
+          evoluindo tecnicamente. Dedico-me ao estudo e prática das tecnologias
+          mais atuais, buscando sempre unir qualidade, eficácia e um forte
+          comprometimento com a entrega de resultados sólidos.
         </p>
-        <p className="md:text-lg text-white font-roboto text-justify mr-3">
-          Atualmente estou em busca de uma oportunidade de crescer e agregar na
-          área de desenvolvimento Full-Stack, unindo qualidade, eficácia e muito
-          amor pelo que faço para que assim eu possa entregar os melhores
-          resultados sem deixar de lado minha evolução como profissional.
-          Dedico-me ao estudo das mais recentes tecnologias, incluindo ReactJS,
-          TypeScript, NextJS, Tailwind CSS, Fastify, ExpressJS e NodeJS.
-        </p>
-        <hr className="mt-5 max-w-xs opacity-70"></hr>
-        <div className="mt-5">
-          <box-icon
-            size="lg"
-            color="#007acc"
-            type="logo"
-            name="typescript"
-          ></box-icon>
-          <box-icon
-            size="lg"
-            color="#61DBFB"
-            type="logo"
-            name="react"
-          ></box-icon>
-          <box-icon
-            size="lg"
-            color="green"
-            name="nodejs"
-            type="logo"
-          ></box-icon>
-          <box-icon
-            size="lg"
-            color="#FFA500"
-            type="logo"
-            name="css3"
-          ></box-icon>
-          <box-icon
-            size="lg"
-            color="#61DBFB"
-            type="logo"
-            name="tailwind-css"
-          ></box-icon>
-          <box-icon
-            size="lg"
-            color="#FFA500"
-            name="html5"
-            type="logo"
-          ></box-icon>
-        </div>
+
+        <hr className="mt-6 max-h-4 opacity-70" />
+        <Tech />
       </div>
     </div>
-  )
+  );
 }
