@@ -1,7 +1,9 @@
 /* eslint-disable prettier/prettier */
+import { FaFileAlt } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 
 import { Tech } from "../Tech";
+import { Button } from "../Button";
 
 export function HomeEu() {
   return (
@@ -25,7 +27,7 @@ export function HomeEu() {
           Este é meu website e portfólio profissional.
         </p>
 
-        <p className="md:text-xs text-[#ccd6f6] font-roboto text-justify mr-3 mt-6">
+        <p className="md:text-base text-[#ccd6f6] font-roboto text-justify mr-3 mt-6">
           Apaixonado por resolver problemas com código, estou em busca de uma
           oportunidade como Desenvolvedor Júnior, onde eu possa crescer
           profissionalmente, contribuir com projetos de qualidade e continuar
@@ -33,6 +35,15 @@ export function HomeEu() {
           mais atuais, buscando sempre unir qualidade, eficácia e um forte
           comprometimento com a entrega de resultados sólidos.
         </p>
+        <div className="mt-3 md:flex justify-center items-center">
+          <a href="/public/curriculo.pdf" download>
+            <Button
+              name="Baixar CV"
+              icon={<FaFileAlt />}
+              className="w-48 h-12 font-bold text-lg"
+            />
+          </a>
+        </div>
 
         <hr className="mt-6 max-h-4 opacity-70" />
         <Tech />

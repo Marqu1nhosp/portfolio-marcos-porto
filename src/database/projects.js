@@ -18,16 +18,26 @@ import optionsOnScreen from "../assets/optionsOnScreen.png";
 import pixGenerator from "../assets/pixGenerator.png";
 import notes from "../assets/notes.png";
 import apiProducts from "../assets/api-products.png";
+import park from "../assets/park.png";
 
 export const projects = [
   {
-    title: "Api de Produtos",
+    title: "Api de Gestão de Produtos",
     descriptionTechnologies:
       "Tecnologias utilizadas: Spring Boot 3, Spring Security, JWT, Testes E2E, Spring Data JPA, Jakarta Bean Validation, Swagger/OpenAPI 3, ModelMapper e WebTestClient.",
     projectIdeia:
-      "API para gestão de produtos com operações de CRUD para categorias, produtos e usuários. Esta API foi desenvolvida utilizando o Spring Framework.",
+      "API para gestão de produtos com operações de CRUD para categorias, produtos, estoques e usuários. Esta API foi desenvolvida utilizando o Spring Framework.",
     image: apiProducts,
     githubLink: "https://github.com/Marqu1nhosp/api-products",
+  },
+  {
+    title: "Api de Gestão de estacionamentos de veículos",
+    descriptionTechnologies:
+      "Tecnologias utilizadas: Spring Boot 3, Spring Security, JWT, Testes E2E, Spring Data JPA, Jakarta Bean Validation, Swagger/OpenAPI 3, JasperReports, JasperSoft Studio, ModelMapper e WebTestClient.",
+    projectIdeia:
+      "API para gerenciamento de estacionamento de veículos, incluindo controle de entradas e saídas, vagas disponíveis, tipos de veículos e cálculo automatizado de tarifas.",
+    image: park,
+    githubLink: "https://github.com/Marqu1nhosp/api-rest-park",
   },
   {
     title: "Notes App",
@@ -46,7 +56,7 @@ export const projects = [
     projectIdeia:
       "Este é projeto full stack, com uma interface simples e intuitiva, meu aplicativo possibilita que os comerciantes se registrem, acessem suas contas e gerem QR Codes Pix de maneira ágil e eficaz. Além disso, oferecemos relatórios de transações simplificados para facilitar a gestão financeira.",
     image: pixGenerator,
-    githubLink: "https://github.com/Marqu1nhosp/options-on-screen-app",
+    githubLink: "https://github.com/Marqu1nhosp/pix-generator-app",
   },
   {
     title: "Options On Screen",

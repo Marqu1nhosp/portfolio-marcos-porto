@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { projects } from "../../database/projects";
+import { Button } from "../Button";
 
 export function CardProjetos() {
   return (
@@ -30,12 +31,7 @@ export function CardProjetos() {
               {project.projectIdeia}
             </p>
             <a href={project.githubLink} target="_blank" rel="noreferrer">
-              <button
-                type="button"
-                className="inline-block px-6 py-2.5 bg-[#007bff] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#0056b3] hover:shadow-lg focus:bg-[#007bff] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#004085] active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Ver projeto
-              </button>
+              <Button name="Ver projeto" />:
             </a>
           </div>
         </div>
