@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { FaFileAlt } from "react-icons/fa
+
 export function Button({ name, className, icon }) {
   return (
     <button
