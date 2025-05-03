@@ -19,6 +19,8 @@ import pixGenerator from "../assets/pixGenerator.png";
 import notes from "../assets/notes.png";
 import apiProducts from "../assets/api-products.png";
 import park from "../assets/park.png";
+import leafletApp from "../assets/leaflet-app.png";
+import apiLeaflet from "../assets/api-leaflet.png";
 
 export const projects = [
   {
@@ -38,6 +40,25 @@ export const projects = [
       "API para gerenciamento de estacionamento de veículos, incluindo controle de entradas e saídas, vagas disponíveis, tipos de veículos e cálculo automatizado de tarifas.",
     image: park,
     githubLink: "https://github.com/Marqu1nhosp/api-rest-park",
+  },
+  {
+    title: "Front-End: Leaflet Polygon – Gerenciamento de Estabelecimentos",
+    descriptionTechnologies:
+      "Tecnologias utilizadas: react, tailwindcss, typescript, axios, leaflet, react-flet., toaster, zod, react-hook-form, date-fns, axios e phosphor-react.",
+    projectIdeia:
+      "Este é um aplicativo de gerenciamento de estabelecimentos que permite aos usuários se cadastrar e se autenticar na aplicação. Criar, visualizar e editar Estabelecimentos em um mapa interativo. Os usuários podem adicionar novos locais, editar os existentes e visualizar uma lista dos locais cadastrados.",
+    image: leafletApp,
+    githubLink: "https://github.com/Marqu1nhosp/leafletPolygon-react-app",
+  },
+  {
+    title:
+      "Back-end: API Leaflet - API construída com o framework Fastify para gerenciar estabelecimentos em um mapa Leaflet.",
+    descriptionTechnologies:
+      "Tecnologias utilizadas: Fastify, Fastify JWT, Fastify CORS typescript, zod, prisma e mysql.",
+    projectIdeia:
+      "Esta é uma API construída com o framework Fastify para gerenciar estabelecimentos em um mapa Leaflet.",
+    image: apiLeaflet,
+    githubLink: "https://github.com/Marqu1nhosp/api-leafletPolygon",
   },
   {
     title: "Notes App",
