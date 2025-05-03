@@ -14,7 +14,7 @@ export function Tech() {
           <h2 className="text-center text-[#64ffda] font-semibold mb-3">
             Front-end
           </h2>
-          <div className="flex flex-wrap gap-6 text-6xl ">
+          <div className="flex flex-wrap gap-4 text-6xl ">
             <TechIcon
               name="devicon-html5-plain-wordmark colored"
               label="HTML5"
@@ -44,7 +44,7 @@ export function Tech() {
           <h2 className="text-center text-[#64ffda] text-xl font-semibold mb-3">
             Back-end
           </h2>
-          <div className="flex flex-wrap gap-6 text-6xl">
+          <div className="flex flex-wrap gap-4 text-6xl">
             <TechIcon
               name="devicon-nodejs-plain-wordmark colored"
               label="Node.js"
@@ -76,7 +76,7 @@ export function Tech() {
           <h2 className="text-center text-[#64ffda] text-xl font-semibold mb-3">
             Ferramentas
           </h2>
-          <div className="flex flex-wrap gap-6 text-6xl">
+          <div className="flex flex-wrap gap-4 text-6xl">
             <TechIcon
               name="devicon-docker-plain-wordmark colored"
               label="Docker"
