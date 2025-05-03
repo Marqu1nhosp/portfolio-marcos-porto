@@ -31,7 +31,7 @@ export function CardProjetos() {
               {project.projectIdeia}
             </p>
             <a href={project.githubLink} target="_blank" rel="noreferrer">
-              <Button name="Ver projeto" />:
+              <Button name="Ver projeto" />
             </a>
           </div>
         </div>
