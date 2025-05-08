@@ -34,14 +34,11 @@ export function SobreMim() {
             interfaces visualmente agradáveis e intuitivas para o usuário. No
             back-end, tenho experiência com frameworks como Fastify, ExpressJS e
             Spring Boot, que me permitiram desenvolver aplicações robustas e de
-            alto desempenho, além de criar servidores escaláveis e eficientes.
-            Também tenho experimentado tecnologias como Node.js, o que
-            aprofundou minha compreensão da arquitetura de servidores modernos.
-            Estou sempre em busca de novos desafios que me permitam crescer
-            profissionalmente. Acredito no impacto da tecnologia no mundo e
-            estou comprometido em contribuir significativamente para o campo da
-            tecnologia da informação, criando soluções de valor e sempre
-            evoluindo.
+            alto desempenho. Estou sempre em busca de novos desafios que me
+            permitam crescer profissionalmente. Acredito no impacto da
+            tecnologia no mundo e estou comprometido em contribuir
+            significativamente para o campo da tecnologia da informação, criando
+            soluções de valor e sempre evoluindo.
           </p>
         </div>
 
