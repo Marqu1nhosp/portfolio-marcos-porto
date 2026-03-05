@@ -1,6 +1,6 @@
 import { Github, Linkedin, Download, ArrowDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.png";
-import marcos from "@/assets/marcos_3.png";
+import marcos from "@/assets/marcos.png";
 
 const HeroSection = () => {
   return (
@@ -35,7 +35,7 @@ const HeroSection = () => {
 
             {/* Foto em mobile - aparece após H1 */}
             <div className="md:hidden flex justify-center animate-slide-up animate-slide-up-delay-2 my-8">
-              <div className="relative w-[450px] h-[380px] rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl hover:shadow-[0_0_40px_-10px_hsl(213_94%_58%_/_0.4)] transition-shadow duration-500 group">
+              <div className="relative w-[450px] h-[590px] rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl hover:shadow-[0_0_40px_-10px_hsl(213_94%_58%_/_0.4)] transition-shadow duration-500 group">
                 <img
                   src={marcos}
                   alt="Marcos Antonio Porto Matos"
@@ -95,7 +95,7 @@ const HeroSection = () => {
 
           {/* Foto em desktop - direita */}
           <div className="hidden md:flex md:order-2 justify-center animate-slide-up">
-            <div className="relative w-[400px] h-[450px] rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl hover:shadow-[0_0_40px_-10px_hsl(213_94%_58%_/_0.4)] transition-shadow duration-500 group">
+            <div className="relative w-[450px] h-[620px] rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl hover:shadow-[0_0_40px_-10px_hsl(213_94%_58%_/_0.4)] transition-shadow duration-500 group">
               <img
                 src={marcos}
                 alt="Marcos Antonio Porto Matos"
