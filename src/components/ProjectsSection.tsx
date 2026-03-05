@@ -11,6 +11,9 @@ import notes from "@/assets/notes.png";
 import optionsOnScreen from "@/assets/optionsOnScreen.png";
 import dtMoney from "@/assets/dtMoney.png";
 import pomodoro from "@/assets/pomodoro.png";
+import apiPixgenerator from "@/assets/api-pixgenerator.png";
+import apiTodolist from "@/assets/api-todolist.png";
+
 
 type Project = {
   title: string;
@@ -23,7 +26,7 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Api de Gestão de Produtos",
+    title: "API de Gestão de Produtos",
     description:
       "API para gestão de produtos com operações de CRUD para categorias, produtos, estoques e usuários. Esta API foi desenvolvida utilizando o Spring Framework.",
     techs: ["Spring Boot 3", "Spring Security,", "JWT", "Spring Data JPA", "Testes E2E", "Jakarta Bean Validation", " Swagger/OpenAPI 3", "ModelMapper", "MySQL"],
@@ -38,6 +41,15 @@ const projects: Project[] = [
     techs: ["Spring Boot 3", "Spring Security,", "JWT", "Spring Data JPA", "Jakarta Bean Validation", " Swagger/OpenAPI 3", "ModelMapper", "MySQL"],
     image: park,
     github: "https://github.com/Marqu1nhosp/api-rest-park",
+    deploy: "https://example.com",
+  },
+  {
+    title: "API To Do List",
+    description:
+      "TodoList é uma aplicação backend que fornece uma API RESTful para gerenciar tarefas e usuários. O projeto implementa um sistema completo de autenticação básica com hashing de senhas usando BCrypt, validação de datas, e isolamento de dados por usuário.",
+    techs: ["Spring Boot 3", "Spring Security,", "JWT", "Spring Data JPA", "Jakarta Bean Validation", " Swagger/OpenAPI 3", "ModelMapper", "MySQL"],
+    image: apiTodolist,
+    github: "https://github.com/Marqu1nhosp/todolist-springboot-api",
     deploy: "https://example.com",
   },
   {
@@ -85,9 +97,18 @@ const projects: Project[] = [
     title: "Pix Generator App",
     description:
       "Este é projeto full stack, com uma interface simples e intuitiva, meu aplicativo possibilita que os comerciantes se registrem, acessem suas contas e gerem QR Codes Pix de maneira ágil e eficaz. Além disso, oferecemos relatórios de transações simplificados para facilitar a gestão financeira.",
-    techs: ["Node.js", "Fastify", "PostgreSQL", "NextJS", "TailwindCSS", "React", "Next Auth", "Zod", "Prisma", "Typescript"],
+    techs: ["NextJS", "TailwindCSS", "React", "Next Auth", "Zod", "Prisma", "Typescript"],
     image: pixGenerator,
     github: "https://github.com/Marqu1nhosp/pix-generator-app",
+    deploy: "https://example.com",
+  },
+  {
+    title: "API - Pix Generator App",
+    description:
+      "Este é projeto full stack, com uma interface simples e intuitiva, meu aplicativo possibilita que os comerciantes se registrem, acessem suas contas e gerem QR Codes Pix de maneira ágil e eficaz. Além disso, oferecemos relatórios de transações simplificados para facilitar a gestão financeira.",
+    techs: ["Node.js", "Fastify", "PostgreSQL", "Zod", "Prisma", "Typescript"],
+    image: apiPixgenerator,
+    github: "https://github.com/Marqu1nhosp/api-rest-pix-generator",
     deploy: "https://example.com",
   },
   {
