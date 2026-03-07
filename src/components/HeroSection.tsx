@@ -82,7 +82,7 @@ const HeroSection = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Marqu1nhosp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-12 h-12 rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary/50 transition-all"
