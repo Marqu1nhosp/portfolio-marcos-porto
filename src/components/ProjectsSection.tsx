@@ -178,7 +178,7 @@ const ProjectsSection = () => {
               key={project.title}
               className="glass-card overflow-hidden group hover:border-primary/30 transition-all duration-300"
             >
-              <div className="relative overflow-hidden h-32 sm:h-40 md:h-48">
+              <div className="relative overflow-hidden h-48 sm:h-40 md:h-48">
                 <img
                   src={project.image}
                   alt={project.title}

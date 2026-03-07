@@ -27,7 +27,6 @@ const smoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
   let start: number | null = null;
 
   const ease = (t: number) => {
-    // Cubic ease-in-out para movimento bem suave
     return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
   };
 

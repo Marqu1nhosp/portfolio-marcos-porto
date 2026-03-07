@@ -20,7 +20,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Texto - esquerda em desktop */}
+
           <div className="md:order-1 text-center md:text-left pt-12 md:pt-0">
             <div className="inline-block md:inline-block mb-6 animate-slide-up">
               <span className="tech-badge font-mono text-xs">
@@ -93,7 +93,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Foto em desktop - direita */}
+
           <div className="hidden md:flex md:order-2 justify-center animate-slide-up">
             <div className="relative w-[450px] h-[620px] rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl hover:shadow-[0_0_40px_-10px_hsl(213_94%_58%_/_0.4)] transition-shadow duration-500 group">
               <img
